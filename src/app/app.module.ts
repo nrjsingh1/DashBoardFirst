@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DashBoardDemoFirstComponent } from './dash-board-demo-first/dash-board-demo-first.component';
 import { MatGridListModule, MatCardModule, MatMenuModule, MatIconModule, MatButtonModule } from '@angular/material';
 import { LayoutModule } from '@angular/cdk/layout';
+import { Ng6O2ChartModule } from 'ng6-o2-chart';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { LayoutModule } from '@angular/cdk/layout';
     MatMenuModule,
     MatIconModule,
     MatButtonModule,
-    LayoutModule
+    LayoutModule,
+    Ng6O2ChartModule
   ],
   providers: [],
   bootstrap: [AppComponent]
